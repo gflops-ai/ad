@@ -25,7 +25,7 @@ type Props = {
 
 const defaultBackgroundColor = '#f7f8ff';
 const defaultTextColor = '#303235';
-const defaultFontSize = 16;
+const defaultFontSize = 13;
 const phoneRegex = new RegExp(/^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/);
 
 const LeadCaptureSchema = z.object({
